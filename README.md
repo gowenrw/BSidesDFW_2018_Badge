@@ -6,8 +6,8 @@ More information about that design is located here:
 http://greatscottgadgets.com/
 
 The PCB requires the following components to make it a functional LAN TAP:
-4x RJ45 Connectors: Amphenol RJHSE-5080 (unshielded) or RJHSE-5380 (shielded)
-2x 220pF through-hole capacitors with .1" lead spacing (e.g. Xicon 140-50P2-221K-RC)
+* 4x RJ45 Connectors: Amphenol RJHSE-5080 (unshielded) or RJHSE-5380 (shielded)
+* 2x 220pF through-hole capacitors with .1" lead spacing (e.g. Xicon 140-50P2-221K-RC)
 
 The original KiCad design files that were sourced by Michael Ossmann are from 2011 and used an older version of Kicad.
 This caused many library errors when trying to read the files in a more recent version of KiCad.
