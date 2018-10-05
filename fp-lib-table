@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name BSidesDFW_2018_Badge)(type KiCad)(uri "$(KIPRJMOD)/lib_fp/BSidesDFW_2018_Badge.pretty")(options "")(descr ""))
+)

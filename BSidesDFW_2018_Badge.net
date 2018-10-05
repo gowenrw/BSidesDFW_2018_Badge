@@ -1,113 +1,138 @@
-# EESchema Netlist Version 1.1 created  Tue Feb  8 16:01:22 2011
-(
- ( /4CE56A8D $noname  C2 220pF {Lib=C}
-  (    1 /SIG7 )
-  (    2 /SIG8 )
- )
- ( /4CE56A8B $noname  C1 220pF {Lib=C}
-  (    1 /SIG4 )
-  (    2 /SIG5 )
- )
- ( /4CE4709A $noname  J2 RJ45 {Lib=RJ45}
-  (    1 /SIG1 )
-  (    2 /SIG2 )
-  (    3 /SIG3 )
-  (    4 /SIG4 )
-  (    5 /SIG5 )
-  (    6 /SIG6 )
-  (    7 /SIG7 )
-  (    8 /SIG8 )
-  (    9 GND )
- )
- ( /4CE470C3 $noname  J4 RJ45 {Lib=RJ45}
-  (    1 ? )
-  (    2 ? )
-  (    3 /SIG3 )
-  (    4 ? )
-  (    5 ? )
-  (    6 /SIG6 )
-  (    7 /SIG7 )
-  (    8 /SIG8 )
-  (    9 GND )
- )
- ( /4CE470AE $noname  J3 RJ45 {Lib=RJ45}
-  (    1 ? )
-  (    2 ? )
-  (    3 /SIG1 )
-  (    4 ? )
-  (    5 ? )
-  (    6 /SIG2 )
-  (    7 /SIG4 )
-  (    8 /SIG5 )
-  (    9 GND )
- )
- ( /4CE47095 $noname  J1 RJ45 {Lib=RJ45}
-  (    1 /SIG1 )
-  (    2 /SIG2 )
-  (    3 /SIG3 )
-  (    4 /SIG4 )
-  (    5 /SIG5 )
-  (    6 /SIG6 )
-  (    7 /SIG7 )
-  (    8 /SIG8 )
-  (    9 GND )
- )
-)
-*
-{ Allowed footprints by component:
-$component C2
- SM*
- C?
- C1-1
-$endlist
-$component C1
- SM*
- C?
- C1-1
-$endlist
-$endfootprintlist
-}
-{ Pin List by Nets
-Net 1 "/SIG6" "SIG6"
- J4 6
- J1 6
- J2 6
-Net 2 "/SIG4" "SIG4"
- J2 4
- J1 4
- J3 7
- C1 1
-Net 3 "/SIG2" "SIG2"
- J2 2
- J1 2
- J3 6
-Net 4 "/SIG5" "SIG5"
- J3 8
- J2 5
- C1 2
- J1 5
-Net 5 "/SIG7" "SIG7"
- J1 7
- J4 7
- C2 1
- J2 7
-Net 6 "GND" "GND"
- J3 9
- J1 9
- J2 9
- J4 9
-Net 7 "/SIG3" "SIG3"
- J2 3
- J1 3
- J4 3
-Net 8 "/SIG1" "SIG1"
- J1 1
- J2 1
- J3 3
-Net 17 "/SIG8" "SIG8"
- C2 2
- J2 8
- J1 8
- J4 8
-}
-#End
+(export (version D)
+  (design
+    (source C:/Users/richa/OneDrive/KiCad/BSidesDFW_2018_Badge/BSidesDFW_2018_Badge.sch)
+    (date "10/4/2018 4:29:22 PM")
+    (tool "Eeschema 4.0.7")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title "Throwing Star LAN Tap")
+        (company "Copyright 2010 Michael Ossmann, Great Scott Gadgets")
+        (rev 1)
+        (date "8 feb 2011")
+        (source BSidesDFW_2018_Badge.sch)
+        (comment (number 1) (value "License: GPL v2"))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref C2)
+      (value 220pF)
+      (footprint BSidesDFW_2018_Badge:C_Rect_L4.6mm_W2.0mm_P2.50mm_MKS02_FKP02)
+      (libsource (lib BSidesDFW_2018_Badge) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4CE56A8D))
+    (comp (ref C1)
+      (value 220pF)
+      (footprint BSidesDFW_2018_Badge:C_Rect_L4.6mm_W2.0mm_P2.50mm_MKS02_FKP02)
+      (libsource (lib BSidesDFW_2018_Badge) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4CE56A8B))
+    (comp (ref J2)
+      (value RJ45)
+      (footprint BSidesDFW_2018_Badge:RJHSE538X)
+      (libsource (lib BSidesDFW_2018_Badge) (part RJ45))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4CE4709A))
+    (comp (ref J4)
+      (value RJ45)
+      (footprint BSidesDFW_2018_Badge:RJHSE538X)
+      (libsource (lib BSidesDFW_2018_Badge) (part RJ45))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4CE470C3))
+    (comp (ref J3)
+      (value RJ45)
+      (footprint BSidesDFW_2018_Badge:RJHSE538X)
+      (libsource (lib BSidesDFW_2018_Badge) (part RJ45))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4CE470AE))
+    (comp (ref J1)
+      (value RJ45)
+      (footprint BSidesDFW_2018_Badge:RJHSE538X)
+      (libsource (lib BSidesDFW_2018_Badge) (part RJ45))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4CE47095)))
+  (libparts
+    (libpart (lib BSidesDFW_2018_Badge) (part C)
+      (footprints
+        (fp C_*))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib BSidesDFW_2018_Badge) (part RJ45)
+      (fields
+        (field (name Reference) J)
+        (field (name Value) RJ45))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+        (pin (num 3) (name ~) (type passive))
+        (pin (num 4) (name ~) (type passive))
+        (pin (num 5) (name ~) (type passive))
+        (pin (num 6) (name ~) (type passive))
+        (pin (num 7) (name ~) (type passive))
+        (pin (num 8) (name ~) (type passive))
+        (pin (num 9) (name SHIELD) (type passive)))))
+  (libraries
+    (library (logical BSidesDFW_2018_Badge)
+      (uri C:\Users\richa\OneDrive\KiCad\BSidesDFW_2018_Badge\lib_sch\BSidesDFW_2018_Badge.lib)))
+  (nets
+    (net (code 1) (name GND)
+      (node (ref J4) (pin 9))
+      (node (ref J1) (pin 9))
+      (node (ref J3) (pin 9))
+      (node (ref J2) (pin 9)))
+    (net (code 3) (name /SIG1)
+      (node (ref J2) (pin 1))
+      (node (ref J3) (pin 3))
+      (node (ref J1) (pin 1)))
+    (net (code 4) (name /SIG2)
+      (node (ref J3) (pin 6))
+      (node (ref J2) (pin 2))
+      (node (ref J1) (pin 2)))
+    (net (code 5) (name /SIG3)
+      (node (ref J4) (pin 3))
+      (node (ref J1) (pin 3))
+      (node (ref J2) (pin 3)))
+    (net (code 6) (name /SIG4)
+      (node (ref C1) (pin 1))
+      (node (ref J1) (pin 4))
+      (node (ref J2) (pin 4))
+      (node (ref J3) (pin 7)))
+    (net (code 7) (name /SIG5)
+      (node (ref J1) (pin 5))
+      (node (ref J3) (pin 8))
+      (node (ref J2) (pin 5))
+      (node (ref C1) (pin 2)))
+    (net (code 8) (name /SIG6)
+      (node (ref J2) (pin 6))
+      (node (ref J1) (pin 6))
+      (node (ref J4) (pin 6)))
+    (net (code 9) (name /SIG7)
+      (node (ref J2) (pin 7))
+      (node (ref J4) (pin 7))
+      (node (ref C2) (pin 1))
+      (node (ref J1) (pin 7)))
+    (net (code 10) (name /SIG8)
+      (node (ref J4) (pin 8))
+      (node (ref C2) (pin 2))
+      (node (ref J2) (pin 8))
+      (node (ref J1) (pin 8)))
+    (net (code 11) (name "Net-(J3-Pad5)")
+      (node (ref J3) (pin 5)))
+    (net (code 12) (name "Net-(J3-Pad4)")
+      (node (ref J3) (pin 4)))
+    (net (code 13) (name "Net-(J3-Pad2)")
+      (node (ref J3) (pin 2)))
+    (net (code 14) (name "Net-(J3-Pad1)")
+      (node (ref J3) (pin 1)))
+    (net (code 15) (name "Net-(J4-Pad5)")
+      (node (ref J4) (pin 5)))
+    (net (code 16) (name "Net-(J4-Pad4)")
+      (node (ref J4) (pin 4)))
+    (net (code 17) (name "Net-(J4-Pad2)")
+      (node (ref J4) (pin 2)))
+    (net (code 18) (name "Net-(J4-Pad1)")
+      (node (ref J4) (pin 1)))))
