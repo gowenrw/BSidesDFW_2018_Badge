@@ -1,7 +1,7 @@
 # BSidesDFW_2018_Badge
 BSidesDFW 2018 Badge Design Files
 
-This design is based on the Throwing Star LAN TAP by Michael Ossmann <mike@ossmann.com> 
+This design is based on the Throwing Star LAN TAP by Michael Ossmann <mike@ossmann.com>
 More information about that design is located here:
 http://greatscottgadgets.com/
 
@@ -36,6 +36,14 @@ Here is the layout of the project directory:
 * ./images - This directory contains images of the design exported from KiCad
 * ./pdf - This directory contains pdf documents of the design exported from KiCad
 
+This is what the badge will look like for conference attendees (red pcb):
 
+![Alt text](/images/BSidesDFW_2018_Badge-RED-FRONT.png?raw=true "Front")
+![Alt text](/images/BSidesDFW_2018_Badge-RED-BACK.png?raw=true "Back")
+
+Staff and Speakers and Sponsors will all have different colored badges.
+Examples of these different colored badges are in the images directory.
+
+As always it was a blast to work on a new badge.
   
-  
+-- [@alt_bier](https://twitter.com/alt_bier)
